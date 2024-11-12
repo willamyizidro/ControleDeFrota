@@ -1,0 +1,95 @@
+.form{
+    width: 30%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    flex-direction: column;
+    background: linear-gradient(to right, #e0e0e08a, #ffffff8a); 
+    box-shadow: 5px 10px 4px rgba(0, 0, 0, 0.2);
+    border-radius:3px; 
+    padding:1em;
+    justify-content: center;
+    border-radius: 50px;
+    padding: 20px; 
+    
+}
+body{
+    background-color: #e9dcc8;
+}
+
+.input{
+    background-color:#bf9e64;
+    border-radius: 50px; 
+    border: 1px solid #aa823d; 
+    padding: 8px; 
+    width: 90%;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+}
+.inputcontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.inputgroup{
+    width: 100%;
+
+}
+.labelgroup{
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 18px;
+   
+}
+.namegroup{
+    font-size: large;
+    text-align: left;
+    margin-bottom: 2%;
+    margin-left: 5%;
+}
+.bottomgroup{
+    background-color: #b45e2b;
+    border: 3px solid #847663;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+.bottomgroup:hover {
+    background-color:  #bf9e64;/* Altera a cor de fundo ao passar o mouse */
+}
+
+.bottomgroup:active {
+    background-color: #926b27;/* Altera a cor de fundo ao clicar */
+}
+.checkboxgoup{
+    background-color: #2980b9;
+    transform: scale(1.1);
+}
+
+.pricing-toggle {
+    background-color: #3FAED7;
+    padding: 14px 5px;
+    border-radius: 30px;
+    display: inline-block
+  }
+  
+  .pricing-toggle [name="pricing"] {
+    display: none
+  }
+  
+  .pricing-toggle input[type="radio"]+label {
+    background-color: #3FAED7;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .pricing-toggle input[type="radio"]:checked+label {
+    background-color: white;
+    color: #00008B;
+  }

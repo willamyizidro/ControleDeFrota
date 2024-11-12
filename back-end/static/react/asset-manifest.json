@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/react/static/css/main.0853dbee.css",
+    "main.js": "/static/react/static/js/main.2e36b5cc.js",
+    "static/js/453.f7be5b23.chunk.js": "/static/react/static/js/453.f7be5b23.chunk.js",
+    "static/media/aberto.png": "/static/react/static/media/aberto.ba8bde32298eebbf6e99.png",
+    "static/media/fechado.png": "/static/react/static/media/fechado.5738312a40fe0e4861a0.png",
+    "../../templates/index.html": "/static/react/../../templates/index.html",
+    "main.0853dbee.css.map": "/static/react/static/css/main.0853dbee.css.map",
+    "main.2e36b5cc.js.map": "/static/react/static/js/main.2e36b5cc.js.map",
+    "453.f7be5b23.chunk.js.map": "/static/react/static/js/453.f7be5b23.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0853dbee.css",
+    "static/js/main.2e36b5cc.js"
+  ]
+}
